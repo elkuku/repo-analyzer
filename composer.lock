@@ -4,8 +4,41 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "48809d75bae86e25d9718afade8e07e9",
+    "content-hash": "fdb51d6c92cdde4812e30b3afaba0030",
     "packages": [
+        {
+            "name": "kbjr/git.php",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kbjr/Git.php.git",
+                "reference": "51d443816dbcde524034b25dac7e24f2794b4d83"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kbjr/Git.php/zipball/51d443816dbcde524034b25dac7e24f2794b4d83",
+                "reference": "51d443816dbcde524034b25dac7e24f2794b4d83",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Kbjr\\Git\\": "src/"
+                }
+            },
+            "support": {
+                "source": "https://github.com/kbjr/Git.php/tree/master",
+                "issues": "https://github.com/kbjr/Git.php/issues"
+            },
+            "funding": [
+                {
+                    "type": "ko_fi",
+                    "url": "https://ko-fi.com/jbrumond"
+                }
+            ],
+            "time": "2021-04-30T19:49:15+00:00"
+        },
         {
             "name": "psr/cache",
             "version": "3.0.0",
@@ -2361,7 +2394,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "kbjr/git.php": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
